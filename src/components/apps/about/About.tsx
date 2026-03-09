@@ -85,13 +85,13 @@ const About = () => {
       icon: "/images/contact/discord.svg",
       alt: "Discord",
       url: "@bitsky234",
-      onClick: () => window.open("https://discord.com/users/lazybigcat0624", "_blank")
+      onClick: () => window.open("https://discord.com/users/bitsky234", "_blank")
     },
     {
       icon: "/images/contact/telegram.svg",
       alt: "Telegram",
       url: "@Techtop000",
-      onClick: () => window.open("https://t.me/lazybigcat0624", "_blank")
+      onClick: () => window.open("https://t.me/Techtop000", "_blank")
     },
     {
       icon: "/images/contact/linkedin.svg",
@@ -116,7 +116,7 @@ const About = () => {
     },
     {
       label: "Telegram",
-      value: "@lazybigcat0624",
+      value: "@Techtop000",
       href: "https://t.me/Techtop000"
     },
     {
