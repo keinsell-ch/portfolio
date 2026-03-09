@@ -63,7 +63,7 @@ export default function BootingScreen({ visible, isShutDown, turnOn }: BootingSc
       {/* <div className="text-white mb-4">
         <a
           className="underline"
-          href="https://www.linkedin.com/in/haruki-mizuno-6310a6365/"
+          href="https://www.linkedin.com/in/Hayato-Suzuki-6310a6365/"
           rel="noreferrer noopener"
           target="_blank"
         >

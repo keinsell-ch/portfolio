@@ -10,7 +10,7 @@ import VsCode from "@/components/apps/vscode";
 const apps = [
   {
     id: "about-me",
-    title: "Haruki Mizuno",
+    title: "Hayato Suzuki",
     icon: "/images/logos/bingrong.png",
     disabled: false,
     favourite: true,

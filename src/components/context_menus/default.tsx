@@ -34,7 +34,7 @@ function DefaultMenu(props: DefaultMenuProps) {
       <Devider />
       <a
         rel="noreferrer noopener"
-        href="https://www.linkedin.com/in/haruki-mizuno-6310a6365/"
+        href="https://www.linkedin.com/in/Hayato-Suzuki-6310a6365/"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey/20 mb-1.5 transition-all duration-150 ease-in-out"
       >
@@ -56,7 +56,7 @@ function DefaultMenu(props: DefaultMenuProps) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="mailto:mizunoharuki0624@gmail.com"
+        href="mailto:SuzukiHayato0624@gmail.com"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey/20 mb-1.5 transition-all duration-150 ease-in-out"
       >

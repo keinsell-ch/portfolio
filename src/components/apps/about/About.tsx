@@ -57,10 +57,10 @@ const About = () => {
     {
       icon: "/images/contact/mail.svg",
       alt: "Email",
-      url: "mizunoharuki0624@gmail.com",
+      url: "gennysundburg@gmail.com",
       onClick: () => {
-        const email = "mizunoharuki0624@gmail.com"
-        const subject = "Hello, Haruki!"
+        const email = "gennysundburg@gmail.com"
+        const subject = "Hello, Hayato!"
         const body = "I'm interested in your project. Please contact me."
         const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
         window.open(mailtoUrl, "_blank")
@@ -68,17 +68,15 @@ const About = () => {
     },
     {
       icon: "/images/contact/calendar.svg",
-      alt: "Calendar",
-      url: "https://calendly.com/harukimizuno0222",
-      onClick: () => window.open("https://calendly.com/harukimizuno0222", "_blank")
+      onClick: () => window.open("https://calendly.com/HayatoSuzuki0222", "_blank")
     },
     {
       icon: "/images/contact/whatsapp.svg",
       alt: "WhatsApp",
-      url: "+818021943843",
+      url: "",
       onClick: () => {
         const phone = "+818021943843"
-        const message = "Hello, Haruki!"
+        const message = "Hello, Hayato!"
         const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
         window.open(whatsappUrl, "_blank")
       }
@@ -86,64 +84,45 @@ const About = () => {
     {
       icon: "/images/contact/discord.svg",
       alt: "Discord",
-      url: "@lazybigcat0624",
+      url: "@bitsky234",
       onClick: () => window.open("https://discord.com/users/lazybigcat0624", "_blank")
     },
     {
       icon: "/images/contact/telegram.svg",
       alt: "Telegram",
-      url: "@lazybigcat0624",
+      url: "@Techtop000",
       onClick: () => window.open("https://t.me/lazybigcat0624", "_blank")
     },
     {
       icon: "/images/contact/linkedin.svg",
       alt: "LinkedIn",
-      url: "https://www.linkedin.com/in/haruki-mizuno-a9540b398",
-      onClick: () => window.open("https://www.linkedin.com/in/haruki-mizuno-a9540b398", "_blank")
+      url: "",
+      onClick: () => window.open("", "_blank")
     },
     {
       icon: "/images/contact/github.svg",
       alt: "GitHub",
-      url: "https://github.com/lazybigcat0624",
-      onClick: () => window.open("https://github.com/lazybigcat0624", "_blank")
+      url: "https://github.com/keinsell-ch",
+      onClick: () => window.open("https://github.com/keinsell-ch", "_blank")
     }
   ]
 
   const contactDetails = [
-    {
-      label: "Portfolio",
-      value: "harukimizuno.vercel.app",
-      href: "https://harukimizuno.vercel.app"
-    },
+    
     {
       label: "Email",
-      value: "mizunoharuki0624@gmail.com",
-      href: "mailto:mizunoharuki0624@gmail.com"
-    },
-    {
-      label: "WhatsApp",
-      value: "+81 80-2194-3843",
-      href: "https://wa.me/+818021943843"
-    },
-    {
-      label: "Calendar",
-      value: "Book a call",
-      href: "https://calendly.com/harukimizuno0222"
-    },
-    {
-      label: "LinkedIn",
-      value: "haruki-mizuno-6310a6365",
-      href: "https://www.linkedin.com/in/haruki-mizuno-a9540b398"
+      value: "gennysundburg@gmail.com",
+      href: "mailto:SuzukiHayato0624@gmail.com"
     },
     {
       label: "Telegram",
       value: "@lazybigcat0624",
-      href: "https://t.me/lazybigcat0624"
+      href: "https://t.me/Techtop000"
     },
     {
       label: "Discord",
-      value: "@lazybigcat0624",
-      href: "https://discord.com/users/lazybigcat0624"
+      value: "@bitsky234",
+      href: "https://discord.com/users/Techtop000"
     }
   ]
 
@@ -160,7 +139,7 @@ const About = () => {
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden ring-4 ring-purple-500/30 shadow-2xl transition-all duration-500 group-hover:ring-purple-400/60 group-hover:shadow-purple-500/25">
                 <Image
                   src="/images/logos/bingrong.png"
-                  alt="Haruki Mizuno"
+                  alt="Hayato Suzuki"
                   width={160}
                   height={160}
                   className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
@@ -177,12 +156,12 @@ const About = () => {
               <h1 className="text-3xl md:text-5xl font-bold mb-4">
                 {animationPhase >= 2 ? (
                   <TypewriterText
-                    text="Haruki Mizuno"
+                    text="Hayato Suzuki"
                     delay={100}
                     className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent"
                   />
                 ) : (
-                  <span className="text-transparent">Haruki Mizuno</span>
+                  <span className="text-transparent">Hayato Suzuki</span>
                 )}
               </h1>
 
@@ -238,14 +217,14 @@ const About = () => {
               {animationPhase >= 5 ? (
                 <div className="text-gray-300 leading-relaxed">
                   <TypewriterText
-                    text="Hi, I’m Haruki Mizuno, a Mobile App Developer with over 7 years of experience in full-stack engineering and trading system development. I began my career building scalable web and backend infrastructures using Node.js, AWS, and Firebase, before expanding into mobile development, where I specialize in crafting high-performance iOS and Android applications with Swift, Kotlin, and Flutter. In addition to mobile apps, I’ve developed automated trading platforms that integrate live market data, AI-driven analytics, and automation APIs, enabling smarter decision-making and faster execution. I’m passionate about combining mobile innovation, intelligent architecture, and emerging AI technologies to deliver applications that are not only fast and reliable but also insight-driven and future-ready."
+                    text="Hi, I’m Hayato Suzuki, a Mobile App Developer with over 7 years of experience in full-stack engineering and trading system development. I began my career building scalable web and backend infrastructures using Node.js, AWS, and Firebase, before expanding into mobile development, where I specialize in crafting high-performance iOS and Android applications with Swift, Kotlin, and Flutter. In addition to mobile apps, I’ve developed automated trading platforms that integrate live market data, AI-driven analytics, and automation APIs, enabling smarter decision-making and faster execution. I’m passionate about combining mobile innovation, intelligent architecture, and emerging AI technologies to deliver applications that are not only fast and reliable but also insight-driven and future-ready."
                     delay={30}
                     className="text-base md:text-lg"
                   />
                 </div>
               ) : (
                 <div className="text-transparent text-base md:text-lg">
-                  Hi, I’m Haruki Mizuno, a Mobile App Developer with over 7 years of experience in full-stack engineering and trading system development.
+                  Hi, I’m Hayato Suzuki, a Mobile App Developer with over 7 years of experience in full-stack engineering and trading system development.
 
                   I began my career building scalable web and backend infrastructures using Node.js, AWS, and Firebase, before expanding into mobile development, where I specialize in crafting high-performance iOS and Android applications with Swift, Kotlin, and Flutter.
 

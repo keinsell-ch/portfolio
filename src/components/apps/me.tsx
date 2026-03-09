@@ -65,7 +65,7 @@ const AboutMe = () => {
       >
         <SidebarContent className="bg-ub-cool-grey">
           <SidebarGroup className="text-white">
-            <SidebarGroupLabel className="text-gray-300">Haruki Mizuno</SidebarGroupLabel>
+            <SidebarGroupLabel className="text-gray-300">Hayato Suzuki</SidebarGroupLabel>
             <SidebarGroupContent>
               <SidebarMenu>
                 {about.map((item) => (

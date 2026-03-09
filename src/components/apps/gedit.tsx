@@ -80,7 +80,7 @@ export default function Gedit() {
     return (
         <div className="w-full flex-1 relative flex flex-col bg-ub-cool-grey text-white select-none">
             <div className="flex items-center justify-between w-full bg-ub-gedit-light/60 border-b border-t border-blue-400 text-sm">
-                <span className="font-bold ml-2">Send a Message to Haruki Mizuno</span>
+                <span className="font-bold ml-2">Send a Message to Hayato Suzuki</span>
                 <div className="flex">
                     <button
                         onClick={sendMessage}

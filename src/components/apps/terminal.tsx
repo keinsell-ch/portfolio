@@ -209,7 +209,7 @@ export default function Terminal({ addFolder, openApp }: TerminalProps) {
             <div key={id} className="w-full">
                 <div className="flex w-full h-5">
                     <div className="flex">
-                        <div className=" text-ubt-green">haruki@code</div>
+                        <div className=" text-ubt-green">Hayato@code</div>
                         <div className="text-white mx-px font-medium">:</div>
                         <div className=" text-ubt-blue">{currentDirectory}</div>
                         <div className="text-white mx-px font-medium mr-1">$</div>
