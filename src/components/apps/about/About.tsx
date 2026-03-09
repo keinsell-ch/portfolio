@@ -112,7 +112,7 @@ const About = () => {
     {
       label: "Email",
       value: "gennysundburg@gmail.com",
-      href: "mailto:SuzukiHayato0624@gmail.com"
+      href: "mailto:gennysundburg@gmail.com"
     },
     {
       label: "Telegram",
@@ -197,7 +197,7 @@ const About = () => {
                       >
                         <Image
                           src={social.icon}
-                          alt={social.alt}
+                          alt={social.alt || "icon"}
                           width={24}
                           height={24}
                           className="transition-transform duration-300 group-hover:scale-110"
